@@ -1,6 +1,8 @@
 
 
 
+import com.utils.SchemaUtils
+import org.apache.hadoop.hive.ql.exec.spark.session.SparkSession
 import org.apache.spark.sql.{Row, SQLContext}
 import org.apache.spark.{SparkConf, SparkContext}
 
@@ -30,6 +32,10 @@ object txt2Parquet {
     // 按要求切割，并且保证数据的长度大于等于85个字段，
     // 如果切割的时候遇到相同切割条件重复的情况下，需要切割的话，那么后面需要加上对应匹配参数
     // 这样切割才会准确 比如 ,,,,,,, 会当成一个字符切割 需要加上对应的匹配参数
+/*    lines.map(_.split(",",-1)).filter(_.length >= 85)
+        .map(arr => DMP(arr(0)))*/
+
+
     val rowRDD = lines.map(t=>t.split(",",t.length)).filter(_.length >= 85)
       .map(arr=>{
         Row(
@@ -123,8 +129,98 @@ object txt2Parquet {
     // 构建DF
     val df = sQLContext.createDataFrame(rowRDD,SchemaUtils.structtype)
     // 保存数据
-    df.write.parquet(outputPath)
+    df.coalesce(1).write.parquet(outputPath)
+
+
+
     sc.stop()
 
   }
 }
+/*
+case class DMP(sessionid: String,
+               advertisersid: Int,
+               adorderid: Int,
+               adcreativeid: Int,
+               adplatformproviderid: Int,
+               sdkversion: String,
+               adplatformkey: String,
+               putinmodeltype: Int,
+               requestmode: Int,
+               adprice: Double,
+               adppprice: Double,
+               requestdate: String,
+               ip: String,
+               appid: String,
+               appname: String,
+               uuid: String,
+               device: String,
+               client: Int,
+               osversion: String,
+               density: String,
+               pw: Int,
+               ph: Int,
+               long: String,
+               lat: String,
+               provincename: String,
+               cityname: String,
+               ispid: Int,
+               ispname: String,
+               networkmannerid: Int,
+               networkmannername:
+               String,
+               iseffective: Int,
+               isbilling: Int,
+               adspacetype: Int,
+               adspacetypename: String,
+               devicetype: Int,
+               processnode: Int,
+               apptype: Int,
+               district: String,
+               paymode: Int,
+               isbid: Int,
+               bidprice: Double,
+               winprice: Double,
+               iswin: Int,
+               cur: String,
+               rate: Double,
+               cnywinprice: Double,
+               imei: String,
+               mac: String,
+               idfa: String,
+               openudid: String,
+               androidid: String,
+               rtbprovince: String,
+               rtbcity: String,
+               rtbdistrict: String,
+               rtbstreet: String,
+               storeurl: String,
+               realip: String,
+               isqualityapp: Int,
+               bidfloor: Double,
+               aw: Int,
+               ah: Int,
+               imeimd5: String,
+               macmd5: String,
+               idfamd5: String,
+               openudidmd5: String,
+               androididmd5: String,
+               imeisha1: String,
+               macsha1: String,
+               idfasha1: String,
+               openudidsha1: String,
+               androididsha1: String,
+               uuidunknow: String,
+               userid: String,
+               iptype: Int,
+               initbidprice: Double,
+               adpayment: Double,
+               agentrate: Double,
+               lomarkrate: Double,
+               adxrate: Double,
+               title: String,
+               keywords: String,
+               tagid: String,
+               callbackdate: String,
+               channelid: String,
+               mediatype: Int)*/

@@ -1,8 +1,14 @@
 package com.Tags
 
+import com.typesafe.config.ConfigFactory
 import com.utils.{JedisPools, TagUtils}
+import org.apache.hadoop.hbase.{HColumnDescriptor, HTableDescriptor, TableName}
+import org.apache.hadoop.hbase.client.{Connection, ConnectionFactory}
 import org.apache.spark.sql.SQLContext
 import org.apache.spark.{SparkConf, SparkContext}
+import redis.clients.jedis.Jedis
+import tachyon.job
+import tachyon.job.JobConf
 
 /**
   * 上下文标签
@@ -20,6 +26,34 @@ object TagsContext {
     val sc = new SparkContext(conf)
     val sqlContext = new SQLContext(sc)
 
+   /* //todo 调用Hbase API
+    //加载配置文件
+    val load = ConfigFactory.load()
+    val hbaseTableName = load.getString("hbase.TableName")
+    //创建Hadoop任务
+    val configuration = sc.hadoopConfiguration
+    configuration.set("hbase.zookeeper.quorum",load.getString("hbase.host"))
+    //创建hbaseConnection
+    val hbconn = ConnectionFactory.createConnection(configuration)
+    val hbadmin = hbconn.getAdmin
+    if(hbadmin.tableExists(TableName.valueOf(hbaseTableName))){
+      //创建表操作
+      val tableDescriptor = new HTableDescriptor(TableName.valueOf(hbaseTableName))
+      //列簇
+      val descriptor = new HColumnDescriptor("tags")
+      tableDescriptor.addFamily(descriptor)
+      hbadmin.createTable(tableDescriptor)
+      hbadmin.clone()
+      hbconn.close()
+
+    }*/
+    //创建Jobconf
+   // val jobconf = new JobConf(configuration.toString)
+    //指定输出类型和表
+  //
+
+
+
 
     val app = sc.textFile("E:/课堂/04项目/Spark用户画像分析/app_dict.txt")
       .map(_.split("\t")).filter(_.length >= 5).map(line => {
@@ -30,28 +64,26 @@ object TagsContext {
 
 
     //写入redis
-    val unit: Unit = sc.textFile("E:/课堂/04项目/Spark用户画像分析/app_dict.txt")
+    sc.textFile("E:/课堂/04项目/Spark用户画像分析/app_dict.txt")
       .map(_.split("\t")).filter(_.length >= 5).map(line => {
       (line(4), line(1))
     }).foreachPartition(itr => {
-      val jedis = JedisPools.getResource()
+      val jedis = new Jedis("192.168.63.101",6379)
       itr.foreach(t => {
         jedis.set(t._1, t._2)
       })
       jedis.close()
     })
 
-/*    val df = sqlContext.read.parquet(inputPath)
+    val df = sqlContext.read.parquet(inputPath)
     df.filter(TagUtils.OneUserId)
-      .map(row => {
-
+      .map(row=>{
         val userId = TagUtils.getOneUserId(row)
 
+
         val appList = TagAppRedis.makeTags(row)
-
         (userId,appList.toMap)
-
-      }).saveAsTextFile(outputPath)*/
+      }).saveAsTextFile(outputPath)
 
 
     //获取停用词库
@@ -62,7 +94,7 @@ object TagsContext {
 
 
 
-    val df = sqlContext.read.parquet(inputPath)
+
 
     //读取数据
 /*
@@ -127,11 +159,11 @@ object TagsContext {
       }).saveAsTextFile(outputPath)*/
 
     //地域
-    df.filter(TagUtils.OneUserId)
+/*    df.filter(TagUtils.OneUserId)
         .map(row =>{
           val locaList = TagLocation.makeTags(row)
           locaList.toMap
-        }).saveAsTextFile(outputPath)
+        }).saveAsTextFile(outputPath)*/
 
 
     sc.stop()

@@ -1,6 +1,7 @@
+package com.txt2Parquet
 
 
-
+import com.Utils2Type.Utils2Type
 import com.utils.SchemaUtils
 import org.apache.hadoop.hive.ql.exec.spark.session.SparkSession
 import org.apache.spark.sql.{Row, SQLContext}

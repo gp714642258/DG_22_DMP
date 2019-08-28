@@ -1,4 +1,4 @@
-
+package com.Utils2Type
 
 /**
   * 数据类型转换

@@ -20,6 +20,9 @@ object TagApp extends Tag{
 
 
 
+
+
+
     val appId = row.getAs[String]("appid")
     val appName = if(row.getAs[String]("appname").isEmpty()) broadcast.value.get("appid") else row.getAs[String]("appname")
 

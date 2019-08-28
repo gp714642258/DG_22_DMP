@@ -2,137 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4deb9b3-f8dc-48aa-a873-ead785957f8d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/Graphx/graph_test.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/Tags/TagBusiness.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/Tags/TagContext3.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/utils/AmapUtil.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/utils/HttpUtil.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/utils/JdbcConnectionPool.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/utils/TextJdbcPool.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/utils/app2Redis.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/utils/test.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com_1/TagType.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com_1/test.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/exam_test1/AmapUtil.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/exam_test1/test.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/exam_test1/test2.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/TagType$$anonfun$main$1$$anonfun$apply$mcVI$sp$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/TagType$$anonfun$main$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/TagType$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/TagType.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/Graphx/graph_test$$anonfun$main$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/Graphx/graph_test$$anonfun$main$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/Graphx/graph_test$$anonfun$main$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/Graphx/graph_test$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/Graphx/graph_test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/Tags/TagBusiness$$anonfun$makeTags$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/Tags/TagBusiness$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/Tags/TagBusiness.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/Tags/TagContext3$$anonfun$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/Tags/TagContext3$$anonfun$4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/Tags/TagContext3$$anonfun$5$$anonfun$6.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/Tags/TagContext3$$anonfun$5$$anonfun$apply$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/Tags/TagContext3$$anonfun$5.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/Tags/TagContext3$$anonfun$7$$anonfun$apply$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/Tags/TagContext3$$anonfun$7.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/Tags/TagContext3$$anonfun$main$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/Tags/TagContext3$$anonfun$main$2$$anonfun$apply$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/Tags/TagContext3$$anonfun$main$2$$anonfun$apply$4$$anonfun$apply$5.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/Tags/TagContext3$$anonfun$main$2$$anonfun$apply$4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/Tags/TagContext3$$anonfun$main$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/Tags/TagContext3$$anonfun$main$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/Tags/TagContext3$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/Tags/TagContext3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/Tags/TagsContext$$anonfun$main$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/Tags/TagsContext$$anonfun$main$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/Tags/TagsContext$$anonfun$main$4$$anonfun$apply$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/Tags/TagsContext$$anonfun$main$4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/Tags/TagsContext$$anonfun$main$5.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/Utils2Type/Utils2Type.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/txt2Parquet/txt2Parquet$$anonfun$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/txt2Parquet/txt2Parquet$$anonfun$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/txt2Parquet/txt2Parquet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/utils/AmapUtil$$anonfun$getBusinessFromAmap$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/utils/AmapUtil$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/utils/AmapUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/utils/HttpUtil$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/utils/HttpUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/utils/JdbcConnectionPool$$anonfun$initConnectionPool$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/utils/JdbcConnectionPool$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/utils/JdbcConnectionPool.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/utils/TextJdbcPool$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/utils/TextJdbcPool.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/utils/app2Redis$$anonfun$main$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/utils/app2Redis$$anonfun$main$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/utils/app2Redis$$anonfun$main$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/utils/app2Redis$$anonfun$main$4$$anonfun$apply$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/utils/app2Redis$$anonfun$main$4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/utils/app2Redis$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/utils/app2Redis.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/utils/test$$anonfun$main$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/utils/test$$anonfun$main$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/utils/test$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/utils/test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/exam_test1/AmapUtil$$anonfun$getBusinessFromAmap$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/exam_test1/AmapUtil$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/exam_test1/AmapUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/exam_test1/test$$anonfun$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/exam_test1/test$$anonfun$main$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/exam_test1/test$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/exam_test1/test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/test$$anonfun$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/test$$anonfun$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/test$$anonfun$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/test$$anonfun$4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/test$$anonfun$main$1$$anonfun$apply$mcVI$sp$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/test$$anonfun$main$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/test$$anonfun$main$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/test$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/test2$$anonfun$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/test2$$anonfun$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/test2$$anonfun$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/test2$$anonfun$4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/test2$$anonfun$main$1$$anonfun$apply$mcVI$sp$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/test2$$anonfun$main$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/test2$$anonfun$main$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/test2$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/test2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.conf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/ETL/txt2Paequet.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/ETL/txt2Paequet.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/Tags/TagAppRedis.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/Tags/TagAppRedis.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/Tags/TagsContext.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/Tags/TagsContext.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/utils/JedisPools.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/utils/JedisPools.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/utils/TagUtils.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/utils/TagUtils.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/utils/Utils2Type.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/utils/Utils2Type.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Utils2Type$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Utils2Type/Utils2Type$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Utils2Type.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.conf" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Tags/TagAppRedis$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Tags/TagAppRedis$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Tags/TagsContext$$anonfun$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Tags/TagsContext$$anonfun$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Tags/TagsContext$$anonfun$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Tags/TagsContext$$anonfun$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Tags/TagsContext$$anonfun$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Tags/TagsContext$$anonfun$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Tags/TagsContext$$anonfun$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Tags/TagsContext$$anonfun$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Tags/TagsContext$$anonfun$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Tags/TagContext3$$anonfun$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Tags/TagsContext$$anonfun$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Tags/TagContext3$$anonfun$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Tags/TagsContext$$anonfun$7$$anonfun$apply$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Tags/TagsContext$$anonfun$7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Tags/TagsContext$$anonfun$8.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Tags/TagsContext$$anonfun$main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Tags/TagsContext$$anonfun$main$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Tags/TagsContext$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Tags/TagsContext$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Tags/TagsContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Tags/TagsContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/utils/JedisPools$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/utils/JedisPools$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/utils/JedisPools.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/utils/JedisPools.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/utils/TagUtils$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/utils/TagUtils$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/utils/TagUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/utils/TagUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/txt2Parquet$$anonfun$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/txt2Parquet$$anonfun$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/txt2Parquet$$anonfun$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/txt2Parquet/txt2Parquet$$anonfun$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/txt2Parquet$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/txt2Parquet/txt2Parquet$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/txt2Parquet.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -147,7 +17,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/Graphx/graph_test.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="329">
@@ -155,6 +25,15 @@
               <folding>
                 <element signature="e#20#64#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="800">
+              <caret line="32" column="47" lean-forward="true" selection-start-line="32" selection-start-column="47" selection-end-line="32" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -248,7 +127,7 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="PackagesPane" proportions="" version="1">
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -309,45 +188,6 @@
               <item name="scala" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DG_22_DMP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="DG_22_DMP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="spark-assembly-1.6.0-hadoop2.6.0" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="DG_22_DMP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="spark-assembly-1.6.0-hadoop2.6.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="spark-assembly-1.6.0-hadoop2.6.0.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DG_22_DMP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="spark-assembly-1.6.0-hadoop2.6.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="spark-assembly-1.6.0-hadoop2.6.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DG_22_DMP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="spark-assembly-1.6.0-hadoop2.6.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="spark-assembly-1.6.0-hadoop2.6.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="apache" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DG_22_DMP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="spark-assembly-1.6.0-hadoop2.6.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="spark-assembly-1.6.0-hadoop2.6.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="apache" type="462c0819:PsiDirectoryNode" />
-              <item name="http" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -414,29 +254,6 @@
             <path>
               <item name="DG_22_DMP" type="58d84e3e:PackageViewProjectNode" />
               <item name="DG_22_DMP" type="616d4139:PackageViewModuleNode" />
-            </path>
-            <path>
-              <item name="DG_22_DMP" type="58d84e3e:PackageViewProjectNode" />
-              <item name="DG_22_DMP" type="616d4139:PackageViewModuleNode" />
-              <item name="com" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="DG_22_DMP" type="58d84e3e:PackageViewProjectNode" />
-              <item name="DG_22_DMP" type="616d4139:PackageViewModuleNode" />
-              <item name="com" type="1f31426a:PackageElementNode" />
-              <item name="Graphx" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="DG_22_DMP" type="58d84e3e:PackageViewProjectNode" />
-              <item name="DG_22_DMP" type="616d4139:PackageViewModuleNode" />
-              <item name="com" type="1f31426a:PackageElementNode" />
-              <item name="Tags" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="DG_22_DMP" type="58d84e3e:PackageViewProjectNode" />
-              <item name="DG_22_DMP" type="616d4139:PackageViewModuleNode" />
-              <item name="com" type="1f31426a:PackageElementNode" />
-              <item name="utils" type="1f31426a:PackageElementNode" />
             </path>
           </expand>
           <select />
@@ -572,13 +389,21 @@
       <option name="project" value="LOCAL" />
       <updated>1566565418644</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="代码n">
+      <created>1566963907354</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1566963907355</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18381241" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18381241" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -608,7 +433,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="代码" />
+    <MESSAGE value="代码n" />
+    <option name="LAST_COMMIT_MESSAGE" value="代码n" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties" />
@@ -678,13 +504,6 @@
           <folding>
             <element signature="e#17#42#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="32" column="47" lean-forward="true" selection-start-line="32" selection-start-column="47" selection-end-line="32" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -1004,6 +823,13 @@
           <folding>
             <element signature="e#20#64#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="800">
+          <caret line="32" column="47" lean-forward="true" selection-start-line="32" selection-start-column="47" selection-end-line="32" selection-end-column="47" />
         </state>
       </provider>
     </entry>
